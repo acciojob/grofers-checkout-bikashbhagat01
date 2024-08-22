@@ -20,7 +20,8 @@ const getSum = () => {
   const newRow = document.createElement("tr"); // Create a new Element/Node Row
   const newColumnCell = document.createElement("td"); // Create a new Element/ Node Data
   newColumnCell.textContent = `${sumOfPrices}`;
-
+  newColumnCell.class = 'ans';
+	
   newRow.appendChild(newColumnCell);
 
   const tableNode = document.querySelector("table"); // Access the Table
