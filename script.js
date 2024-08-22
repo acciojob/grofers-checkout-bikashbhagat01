@@ -18,11 +18,10 @@ const getSum = () => {
 
   // Created a new Row with a single cell to Show the total price
   const newRow = document.createElement("tr"); // Create a new Element/Node Row
-  const newColumnCell = document.createElement("td"); // Create a new Element/ Node Data
-  newColumnCell.textContent = `${sumOfPrices}`;
-  newColumnCell.class = 'ans';
+  // const newColumnCell = document.createElement("td"); // Create a new Element/ Node Data
+  newRow.textContent = `${sumOfPrices}`;
 	
-  newRow.appendChild(newColumnCell);
+  // newRow.appendChild(newColumnCell);
 
   const tableNode = document.querySelector("table"); // Access the Table
   tableNode.appendChild(newRow); // Added the newRow Element/Node to the table as a new child
