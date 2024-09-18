@@ -1,6 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
 
-/* Your CSS Code here. */
+h1 {
+    text-align: center;
+}
 
-td {
-	text-align: center
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
 }
